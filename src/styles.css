@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-image:url(https://www.athletadesk.com/wp-content/uploads/2016/08/join-background.jpg);
+    background-position:fixed;
+    background-repeat:no-repeat;
+}

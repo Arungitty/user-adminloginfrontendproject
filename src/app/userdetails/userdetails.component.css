@@ -1,0 +1,39 @@
+.table th {
+    border: solid 3px white;
+    color:#fff;
+    text-align:center;
+    font-weight:bold;
+    font-size:15px;
+    background:black;
+}
+
+.table td{
+    color:white;
+    text-align:center;
+    font-size:15px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)100%, rgba(0,0,0,0.8)100%);
+}
+
+.table tr{
+    margin-left:-500px;
+    border: solid 2px white;
+}
+
+ .table tr[name="headingrow"]{
+    border: solid 3px white;
+}
+
+.table td:hover{
+    color:green;
+    font-weight:bold;
+    font-size:20px;
+    cursor:pointer;
+}
+
+div{
+    color:#66ff00;
+    text-align:center;
+   font-weight:bold;
+   font-size:15px;
+   margin-bottom:15px;
+}

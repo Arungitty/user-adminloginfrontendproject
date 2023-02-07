@@ -1,0 +1,13 @@
+<p>userregistration works!</p>
+
+<form class="form">
+    <h1>Register here</h1>
+    <label>Email:</label>
+    <input type="text" name="email" placeholder="Enter email here" [(ngModel)]="user.email">
+    <label>Name:</label>
+    <input type="text" name="name" placeholder="Enter name here" [(ngModel)]="user.name">
+    <label>ContactNumber:</label>
+    <input type="text" name="number" placeholder="Enter number here" [(ngModel)]="user.contactnumber">
+    <input type="submit" value="submit/create" (click)="addOn()">
+
+</form>

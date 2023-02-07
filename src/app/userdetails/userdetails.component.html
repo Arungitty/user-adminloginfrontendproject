@@ -1,0 +1,25 @@
+<p>userdetails works!</p>
+
+<div>
+    <h2>USER REGISTRATION DETAILS </h2>
+</div>
+
+<table class="table">
+    <thead>
+        <tr name="headingrow">
+            <th>UserId</th> <th>UserName</th> <th>UserEmail</th> <th>ContactNumber</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor= "let u of users">
+            <td>{{u.id}}</td>
+            <td>{{u.name}}</td>
+            <td>{{u.email}}</td>
+            <td>{{u.contactnumber}}</td>
+        </tr>
+    </tbody>
+
+</table>
+
+

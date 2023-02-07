@@ -1,0 +1,15 @@
+<p>signup works!</p>
+
+<div class="form">
+    <h1>Login Here</h1>
+    <label>Username :</label>
+    <input type="text" name="" placeholder="Enter name here" #name >
+    <label>Password :</label>
+    <input type="password" name="password" id="password" #password placeholder="Enter password here">
+    <p>show password:<input type="checkbox" (click)="myFunction()"></p>
+    <input type="submit" name="submit" (click)="onSubmit(name.value, password.value)" value="login">
+    <div>
+        <a routerLink="/userlogin">already signup?</a>
+    </div>
+
+</div>
